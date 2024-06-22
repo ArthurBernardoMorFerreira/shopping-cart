@@ -1,0 +1,41 @@
+.search-bar {
+  display: flex;
+  justify-content: space-between;
+  gap: 14px;
+
+  padding-right: 14px;
+
+  box-shadow: 0 1px 2px #0000001a;
+  background: #FFF;
+
+  width: 100%;
+  max-width: 500px;
+}
+
+.search__input {
+  flex-grow: 1;
+
+  padding: 14px;
+
+  font-size: 0.8rem;
+  font-weight: 500px;
+
+  border: none;
+  border-right: 1px solid #DDD;
+  outline: none;
+}
+
+.search__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: none;
+  color: #333;
+
+  font-size: 1rem;
+
+  border: none;
+
+  cursor: pointer;
+}
